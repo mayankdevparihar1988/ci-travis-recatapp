@@ -92,3 +92,12 @@ docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app -it localreact npm r
 ```bash
 docker build -t prodfrontend .
 ```
+
+
+# ADDING REMOTE REPOSITORY TO LOCAL GIT
+```bash
+git remote add origin https://github.com/mayankdevparihar1988/ci-travis-recatapp.git
+git branch -M main
+git push -u origin main
+
+```
